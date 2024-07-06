@@ -1,0 +1,26 @@
+.Body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Wittgenstein', sans-serif;  
+    border: 1px solid blueviolet;
+}
+* {
+    box-sizing: border-box;
+  }
+  .Body{
+    min-height: 100vh;
+    margin: 0; padding: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
