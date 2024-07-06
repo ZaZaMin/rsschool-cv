@@ -24,3 +24,25 @@
     justify-content: flex-end;
     align-items: center;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: aqua;
+  }
+  .section-item a {
+    color: coral;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: forestgreen;
+  }
+  .nav-link {
+    transition: 0.3s;
+  }
