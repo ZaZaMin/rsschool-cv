@@ -18,6 +18,7 @@
   background-color: #67eb9c;
   left: 8px;
   text-align: center;
+  transition: 0.3s;
 }
 body {
   display: flex;
@@ -55,6 +56,7 @@ body {
 .header-item:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #df75ce;
 }
 .year {
   margin-top: 50px;
@@ -85,3 +87,4 @@ body {
 ul{
   list-style-type: none;
 }
+
