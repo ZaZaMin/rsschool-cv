@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 .container {
   width: 80%;
@@ -26,19 +27,19 @@ body {
   flex-basis: 60%;
 }
 .English{
-  font-family: 'Wittgenstein', sans-serif;
+  font-family: "Lato", sans-serif;
   flex-basis: 60%;
 }
 .Name{
-  font-family: 'open-sans', sans-serif;
+  font-family: "Lato", sans-serif;
   flex-basis: 60%;
 }
 .Skills{
-  font-family: 'open-sans', sans-serif;
+  font-family: "Baskervville SC", serif;
   flex-basis: 60%;
 }
 .Education{
-  font-family: 'Wittgenstein', sans-serif;
+  font-family: "Baskervville SC", serif;
   flex-basis: 60%;
 }
 .logotipe{
@@ -54,4 +55,25 @@ body {
   margin-top: 50px;
   font-weight: bold;
   font-size: 60px;
+  width: 50%;
+}
+.image{
+  width: auto;
+  height: auto;
+}
+.rslogo{
+  height: auto;
+  width: 100%;
+}
+.ghlogo{
+  height: auto;
+  width: 10%;
+}
+.footer{
+  display: flex;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
 }
