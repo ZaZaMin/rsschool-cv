@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  gap: 20px;
+  list-style-type: none;
+}
+.header{
+  background-color: #67eb9c;
+  left: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url('./img/background.png');
+  gap: 20px;
+  list-style-type: none;
+}
+.Summary{
+  font-family: "Baskervville SC", serif;
+  flex-basis: 60%;
+}
+.English{
+  font-family: "Lato", sans-serif;
+  flex-basis: 60%;
+}
+.Name{
+  font-family: "Lato", sans-serif;
+  flex-basis: 60%;
+}
+.Skills{
+  font-family: "Baskervville SC", serif;
+  flex-basis: 60%;
+}
+.Education{
+  font-family: "Baskervville SC", serif;
+  flex-basis: 60%;
+}
+.logotipe{
+  color: #411b87;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.header-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #df75ce;
+}
+.year {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 60px;
+  width: 50%;
+}
+.image{
+  width: auto;
+  height: auto;
+}
+.rslogo{
+  height: auto;
+  width: 100%;
+}
+.ghlogo{
+  height: auto;
+  width: 10%;
+}
+.footer{
+  display: flex;
+    align-content: stretch;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+ul{
+  list-style-type: none;
+}
+
