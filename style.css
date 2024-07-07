@@ -11,18 +11,23 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  gap: 20px;
+  list-style-type: none;
 }
 .header{
-  background-color: #192497;
+  background-color: #67eb9c;
   left: 8px;
+  text-align: center;
 }
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: url('./img/background.png');
+  gap: 20px;
+  list-style-type: none;
 }
-.Summery{
+.Summary{
   font-family: "Baskervville SC", serif;
   flex-basis: 60%;
 }
@@ -76,4 +81,7 @@ body {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
+}
+ul{
+  list-style-type: none;
 }
