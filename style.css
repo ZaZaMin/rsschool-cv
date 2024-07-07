@@ -8,3 +8,8 @@
   background-color: #8a2be2;
   left: 8px;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
